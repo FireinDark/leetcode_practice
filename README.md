@@ -1,1 +1,2 @@
 # leetcode_practice
+勇于记录刷leetcode算法题的想法思路记录

@@ -5,7 +5,7 @@ __author__ = 'yi.liu'
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         start = end = 0
-        char_list = [0 for i in range(26)]
+        char_list = [0 for _ in range(26)]
         position_a = ord('A')
         while len(s) > end:
             char_list[ord(s[end]) - position_a] += 1
