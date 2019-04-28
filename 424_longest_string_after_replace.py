@@ -15,11 +15,11 @@ class Solution:
                 char_list[ord(s[start]) - position_a] -= 1
                 start += 1
             end += 1
+        # 当我们找到一个最大的窗口之后，
+        # 之后的每一次操作都是移动此窗口
+        # 所以窗口长度就是我们的最大长度
         return end - start
 
 
 if __name__ == '__main__':
     print(Solution().characterReplacement("SAFSSJKFJKKWQRSS", 2))
-
-
-
